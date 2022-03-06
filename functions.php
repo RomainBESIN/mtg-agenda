@@ -36,7 +36,7 @@ function filter_by_region_field() { ?>
 			 <div class="search_event_types">
 			 <label for="search_event_types" class="wpem-form-label"><?php _e( 'region', 'event_manager' ); ?></label>
 			 <select name="filter_by_region" class="event-manager-filter">
-				 <option value=""><?php _e( 'Region', 'event_manager' ); ?></option>
+				 <option value=""><?php _e( 'Toutes les régions', 'event_manager' ); ?></option>
 				 <option value="Auvergne-Rhône-Alpes"><?php _e( 'Auvergne-Rhône-Alpes', 'event_manager' ); ?></option>
 				 <option value="Bourgogne-Franche-Comté"><?php _e( 'Bourgogne-Franche-Comté', 'event_manager' ); ?></option>
 				 <option value="Bretagne"><?php _e( 'Bretagne', 'event_manager' ); ?></option>
@@ -90,7 +90,7 @@ function filter_by_format_field() { ?>
 			 <div class="search_event_types">
 			 <label for="search_event_types" class="wpem-form-label"><?php _e( 'format', 'event_manager' ); ?></label>
 			 <select name="filter_by_format" class="event-manager-filter">
-				 <option value=""><?php _e( 'Format', 'event_manager' ); ?></option>
+				 <option value=""><?php _e( 'Tous les formats', 'event_manager' ); ?></option>
 				 <option value="Duel Commander"><?php _e( 'Duel Commander', 'event_manager' ); ?></option>
 				 <option value="Standard"><?php _e( 'Standard', 'event_manager' ); ?></option>
 				 <option value="Vintage"><?php _e( 'Vintage', 'event_manager' ); ?></option>
